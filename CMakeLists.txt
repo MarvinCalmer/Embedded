@@ -3,4 +3,6 @@ project(Embedded C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(Embedded main.c)
+add_executable(Embedded
+    Task1.c
+)

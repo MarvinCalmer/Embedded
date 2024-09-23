@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 
 int main(void) {
-
     float xDelta= 0.001;
     float xMin=6;
     float xMax=7;
@@ -16,3 +14,5 @@ int main(void) {
     }
     return 0;
 }
+
+
