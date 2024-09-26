@@ -55,8 +55,8 @@ build CMakeFiles/Embedded.dir/bubble_sort.c.obj: C_COMPILER__Embedded_unscanned_
   OBJECT_DIR = CMakeFiles\Embedded.dir
   OBJECT_FILE_DIR = CMakeFiles\Embedded.dir
 
-build CMakeFiles/Embedded.dir/Task1M.c.obj: C_COMPILER__Embedded_unscanned_Debug C$:/Users/marvi/CLionProjects/Embedded/Task1M.c || cmake_object_order_depends_target_Embedded
-  DEP_FILE = CMakeFiles\Embedded.dir\Task1M.c.obj.d
+build CMakeFiles/Embedded.dir/Task1N.c.obj: C_COMPILER__Embedded_unscanned_Debug C$:/Users/marvi/CLionProjects/Embedded/Task1N.c || cmake_object_order_depends_target_Embedded
+  DEP_FILE = CMakeFiles\Embedded.dir\Task1N.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Embedded.dir
   OBJECT_FILE_DIR = CMakeFiles\Embedded.dir
@@ -69,7 +69,7 @@ build CMakeFiles/Embedded.dir/Task1M.c.obj: C_COMPILER__Embedded_unscanned_Debug
 #############################################
 # Link the executable Embedded.exe
 
-build Embedded.exe: C_EXECUTABLE_LINKER__Embedded_Debug CMakeFiles/Embedded.dir/bubble_sort.c.obj CMakeFiles/Embedded.dir/Task1M.c.obj
+build Embedded.exe: C_EXECUTABLE_LINKER__Embedded_Debug CMakeFiles/Embedded.dir/bubble_sort.c.obj CMakeFiles/Embedded.dir/Task1N.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Embedded.dir

@@ -12,5 +12,6 @@ add_executable(Embedded
         bubble_sort.c
         #Task1L.c
         #Task1O.c
-        Task1M.c
+        #Task1M.c
+        Task1N.c
 )
